@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is created for running test suit -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- Supported browser names: Chrome; Firefox -->
+<suite name="Suite" thread-count="1" parallel="methods">
+
+<parameter name="broswer" value="Chrome"></parameter>
+<parameter name="runningMode" value="Local"></parameter>
+
+	<listeners>
+		<listener class-name="ExtentReport.TestListener" />
+	</listeners>
+
+  <test name="Suit test for running test cases - Tiki test cases">
+  
+    <classes>
+     <class name="Tiki.TikiTest"><methods><include name="Testcase002"></include></methods></class>
+     
+     <!--
+     <class name="Tiki.TikiTest"><methods><include name="Testcase002"></include></methods></class>
+     <class name="Tiki.TikiTest"><methods><include name="Testcase003"></include></methods></class>
+     -->
+    </classes>
+    
+  </test>
+  
+</suite> <!-- Suite -->

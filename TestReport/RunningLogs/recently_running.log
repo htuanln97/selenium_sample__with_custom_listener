@@ -1,0 +1,35 @@
+2022-02-08 - 12:17:39 - INFO core.driver_wrapper.management.Driver <init> - Creating new Chrome driver
+2022-02-08 - 12:17:40 - INFO org.openqa.selenium.remote.ProtocolHandshake createSession - Detected dialect: W3C
+2022-02-08 - 12:17:40 - INFO core.driver_wrapper.management.DriverManagement addDriver - DriverManagement are adding driver on thread 1
+2022-02-08 - 12:17:40 - INFO core.driver_wrapper.management.Driver setImplicitlyWait - Set driver [1] implicitly wait [10]s
+2022-02-08 - 12:17:52 - INFO element_wrapper.BaseElement waitForVisibility - Wait for control By.xpath: //div[@id='onesignal-slidedown-dialog']//div[@class='slidedown-body-message'] visibility with timeOut: 3
+2022-02-08 - 12:18:02 - SEVERE element_wrapper.BaseElement waitForVisibility - Has error with control 'By.xpath: //div[@id='onesignal-slidedown-dialog']//div[@class='slidedown-body-message']': Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='onesignal-slidedown-dialog']//div[@class='slidedown-body-message'] (tried for 3 second(s) with 500 milliseconds interval)
+2022-02-08 - 12:18:12 - INFO element_wrapper.BaseElement waitForVisibility - Wait for control By.xpath: //input[@data-view-id='main_search_form_input'] visibility with timeOut: 30
+2022-02-08 - 12:18:12 - INFO element_wrapper.Element getAttribute - Get attribute 'placeholder' of element By.xpath: //input[@data-view-id='main_search_form_input']
+2022-02-08 - 12:18:12 - INFO element_wrapper.BaseElement waitForClickable - Wait for control By.xpath: //button[@data-view-id='main_search_form_button'][text()='Tìm Kiếm'] to be clickabled with timeout: 30
+2022-02-08 - 12:18:12 - INFO element_wrapper.Element sendKeys - Send keys to element By.xpath: //input[@data-view-id='main_search_form_input']
+2022-02-08 - 12:18:12 - INFO element_wrapper.BaseElement waitForVisibility - Wait for control By.xpath: //input[@data-view-id='main_search_form_input'] visibility with timeOut: 30
+2022-02-08 - 12:18:12 - INFO element_wrapper.BaseElement waitForVisibility - Wait for control By.xpath: //input[@data-view-id='main_search_form_input'] visibility with timeOut: 30
+2022-02-08 - 12:18:12 - INFO element_wrapper.Element click - Click on By.xpath: //button[@data-view-id='main_search_form_button'][text()='Tìm Kiếm']
+2022-02-08 - 12:18:12 - INFO element_wrapper.BaseElement waitForClickable - Wait for control By.xpath: //button[@data-view-id='main_search_form_button'][text()='Tìm Kiếm'] to be clickabled with timeout: 60
+2022-02-08 - 12:18:12 - INFO element_wrapper.BaseElement waitForVisibilityOfAllElements - Wait for control By.xpath: //div[@class='breadcrumb']/a[@class='breadcrumb-item'] of elements visibility with timeOut: 30
+2022-02-08 - 12:18:12 - INFO element_wrapper.BaseElement waitForVisibility - Wait for control By.xpath: //div[@class='search-summary']/div[@class='title']/h1 visibility with timeOut: 30
+2022-02-08 - 12:18:13 - INFO element_wrapper.Element getText - Get text of element By.xpath: //div[@class='search-summary']/div[@class='title']/h1
+2022-02-08 - 12:18:13 - INFO element_wrapper.BaseElement waitForVisibility - Wait for control By.xpath: //div[@class='search-summary']/div[@class='title']/h1 visibility with timeOut: 30
+2022-02-08 - 12:18:13 - INFO element_wrapper.BaseElement waitForInvisibility - Wait for control By.xpath: //html[contains(@class,'nprogress-busy')] invisibility with timeOut: 30
+2022-02-08 - 12:18:23 - INFO element_wrapper.Element scrollToView - Scroll to view of element By.xpath: (//a[@class='product-item']//div[@class='name']/span)[14]
+2022-02-08 - 12:20:10 - INFO element_wrapper.Element getText - Get text of element By.xpath: (//a[@class='product-item']//div[@class='name']/span)[14]
+2022-02-08 - 12:20:10 - INFO element_wrapper.BaseElement waitForVisibility - Wait for control By.xpath: (//a[@class='product-item']//div[@class='name']/span)[14] visibility with timeOut: 30
+2022-02-08 - 12:20:17 - INFO element_wrapper.Element getText - Get text of element By.xpath: (//a[@class='product-item']//div[@class='price-discount']/div[@class='price-discount__price'])[14]
+2022-02-08 - 12:20:17 - INFO element_wrapper.BaseElement waitForVisibility - Wait for control By.xpath: (//a[@class='product-item']//div[@class='price-discount']/div[@class='price-discount__price'])[14] visibility with timeOut: 30
+2022-02-08 - 12:20:57 - INFO element_wrapper.Element scrollToView - Scroll to view of element By.xpath: //span[contains(text(),'Điện thoại iPhone 13 - Hàng chính hãng')]/ancestor::a[@class='product-item']
+2022-02-08 - 12:20:58 - INFO element_wrapper.Element click - Click on By.xpath: //span[contains(text(),'Điện thoại iPhone 13 - Hàng chính hãng')]/ancestor::a[@class='product-item']
+2022-02-08 - 12:20:58 - INFO element_wrapper.BaseElement waitForClickable - Wait for control By.xpath: //span[contains(text(),'Điện thoại iPhone 13 - Hàng chính hãng')]/ancestor::a[@class='product-item'] to be clickabled with timeout: 60
+2022-02-08 - 12:21:54 - INFO element_wrapper.Element getText - Get text of element By.xpath: //h1[@class='title']
+2022-02-08 - 12:21:54 - INFO element_wrapper.BaseElement waitForVisibility - Wait for control By.xpath: //h1[@class='title'] visibility with timeOut: 30
+2022-02-08 - 12:22:07 - INFO element_wrapper.Element getText - Get text of element By.xpath: //h1[@class='title']
+2022-02-08 - 12:22:07 - INFO element_wrapper.BaseElement waitForVisibility - Wait for control By.xpath: //h1[@class='title'] visibility with timeOut: 30
+2022-02-08 - 12:22:15 - INFO element_wrapper.Element getText - Get text of element By.xpath: //div[@class='product-price']/span[contains(@class,'current-price')]
+2022-02-08 - 12:22:15 - INFO element_wrapper.BaseElement waitForVisibility - Wait for control By.xpath: //div[@class='product-price']/span[contains(@class,'current-price')] visibility with timeOut: 30
+2022-02-08 - 12:22:46 - SEVERE element_wrapper.BaseElement waitForVisibility - Has error with control 'By.xpath: //div[@class='product-price']/span[contains(@class,'current-price')]': Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='product-price']/span[contains(@class,'current-price')] (tried for 30 second(s) with 500 milliseconds interval)
+2022-02-08 - 12:22:46 - SEVERE element_wrapper.Element getText - Has error with control 'By.xpath: //div[@class='product-price']/span[contains(@class,'current-price')]': Cannot invoke "org.openqa.selenium.WebElement.getText()" because the return value of "element_wrapper.Element.waitForVisibility()" is null
